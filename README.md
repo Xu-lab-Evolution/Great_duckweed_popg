@@ -9,16 +9,16 @@ Before running the scripts, please download the raw data and store the "data fol
 
 <ul>
   <li>
-    <span class='tree-item'>/working_folder/</span>
+    <span class='tree-item'>working_folder/</span>
     <ul>
       <li>
-        <span class='tree-item'>scripts</span>
+        <span class='tree-item'>scripts/</span>
         <ul>
           <li>
-            <span class='tree-item'>Fig_1</span>
+            <span class='tree-item'>Fig_1/</span>
           </li>
           <li>
-            <span class='tree-item'>Fig_2</span>
+            <span class='tree-item'>Fig_2/</span>
           </li>
           <li>
             <span class='tree-item'>...</span>
@@ -26,13 +26,13 @@ Before running the scripts, please download the raw data and store the "data fol
         </ul>
       </li>
       <li>
-       <span class='tree-item'>data</span>
+       <span class='tree-item'>data/</span>
        <ul>
          <li>
-            <span class='tree-item'>Fig_1</span>
+            <span class='tree-item'>Fig_1/</span>
           </li>
           <li>
-            <span class='tree-item'>Fig_2</span>
+            <span class='tree-item'>Fig_2/</span>
           </li>
           <li>
             <span class='tree-item'>...</span>
