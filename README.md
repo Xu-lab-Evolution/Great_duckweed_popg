@@ -7,6 +7,7 @@ The scripts were written mainly using bash, Perl, Python and R, and calculations
 <h2> How to start </h2>
 Before running the scripts, please download the raw data and store the "data folder" in the same directory where you put the "scripts" folder, like this:
 
+
 <ul>
   <li>
     <span class='tree-item'>working_folder/</span>
