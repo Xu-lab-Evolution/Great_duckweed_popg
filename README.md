@@ -1,5 +1,3 @@
-# Great_duckweed_popg
-
 <h1> Population Genomics of the Great Duckweed </h1>
 The repository archives scripts involved in the great duckweed (***Spirodela polyrhiza***) population genomics project (the manuscript is under review).
 
