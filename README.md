@@ -5,7 +5,7 @@ The repository archives scripts involved in the great duckweed (<strong><em>Spir
 The scripts were written mainly using bash, Perl, Python and R, and calculations were done in an x86_64 GNU/Linux cluster. Please modify the running environment accordingly.
 
 <h2> How to start </h2>
-Before running the scripts, please download the raw data and store the "data folder" in the same directory where you put the "scripts" folder, like this:
+Before running the scripts, please download the raw data and store the "data" folder in the same directory where you put the "scripts" folder, like this:
 
 
 <ul>
