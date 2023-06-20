@@ -43,5 +43,4 @@ Before running the scripts, please download the raw data and store the "data" fo
     </ul>
   </li>
 </ul>
-
-The tar.gz compressed folder of "data" could be downloaded using url: https://irods-web.zdv.uni-mainz.de/irods-rest/rest/fileContents/zdv/project/m2_jgu-evoltroph/Duckweed_popg/228_Sp_popg.data_scripts_for_publish/data.tar.gz?ticket=jqq2ixjb6RqNFBg
+<strong>The tar.gz compressed folder of "data" could be downloaded <a href="https://irods-web.zdv.uni-mainz.de/irods-rest/rest/fileContents/zdv/project/m2_jgu-evoltroph/Duckweed_popg/228_Sp_popg.data_scripts_for_publish/data.tar.gz?ticket=jqq2ixjb6RqNFBg" target="_blank" rel="noopener noreferrer">here</a>.</strong> 
