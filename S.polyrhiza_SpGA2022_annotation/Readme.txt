@@ -1,5 +1,5 @@
 ########SpGA2022 v0.4 update 20.09.2022
-File lists:
+File list:
 
 SpGA2022.aa.fa: protein sequences of all annotated transcripts in fasta format
 SpGA2022.functional_anno.txt: functional annotation for all annotated transcripts (using InterProScan and Blastn)
