@@ -46,4 +46,6 @@ Before running the scripts, please download the raw data and store the "data" fo
 <strong>The tar.gz compressed folder of "data" could be downloaded <a href="https://irods-web.zdv.uni-mainz.de/irods-rest/rest/fileContents/zdv/project/m2_jgu-evoltroph/Duckweed_popg/228_Sp_popg.data_scripts_for_publish/data.tar.gz?ticket=jqq2ixjb6RqNFBg" target="_blank" rel="noopener noreferrer">here</a>.</strong> 
 
 <h2> Other files </h2>
-Folder ""
+Folder <a href="https://github.com/Xu-lab-Evolution/Great_duckweed_popg/tree/main/S.polyrhiza_SpGA2022_annotation" target="_blank" rel="noopener noreferrer"> "S.polyrhiza_SpGA2022_annotation/" </a> contains the updated S. polyrhiza genome annotation.
+
+
