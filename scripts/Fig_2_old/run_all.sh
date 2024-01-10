@@ -24,7 +24,7 @@ mkdir -p $pi_dir/ALLPOP ; cp $pi_dir/SP_228.basic_set.snp.recode.rm_cluster3-10.
 
 for i in AME ASIA EUR IND ALLPOP; do $general_scripts_dir/split_VCF_based_on_each_chr.sh $pi_dir/$i/$i.vcf.gz; for chr in `cat $pi_dir/$i/chromosomes.txt`; do mkdir -p $pi_dir/$i/$chr ; mv $pi_dir/$i/$chr.vcf $pi_dir/$i/$chr ; done ; done
 
-#
+#first correct the allele frequency information (AF tag) from each VCF file, then perform SNPgenie calculation
 if [ -f snpgenie.all_run.list.sh ]; then rm snpgenie.all_run.list.sh ; fi
 #for i in AME ASIA EUR IND ALLPOP; do chr=(ChrS{01..20}); for chr in ${chr[@]}; do perl get_snpgenie_cmd.pl $PWD/$pi_dir/$i/$chr/$chr.vcf $PWD/$data_dir/Spolyrhiza_ref/split_by_chr $PWD/$data_dir/Spolyrhiza_annotation_SPGA2022/split_chr $PWD/$general_scripts_dir/SNPgenie/ mogon ; done ; done #run on mogon
 for i in AME ASIA EUR IND ALLPOP; do chr=(ChrS{01..20}); for chr in ${chr[@]}; do perl get_snpgenie_cmd.pl $PWD/$pi_dir/$i/$chr/$chr.vcf $PWD/$data_dir/Spolyrhiza_ref/split_by_chr $PWD/$data_dir/Spolyrhiza_annotation_SPGA2022/split_chr $PWD/$general_scripts_dir/SNPgenie/ ; done ; done
@@ -41,9 +41,15 @@ vcftools --vcf $data_dir/SNP_vcf/SP_228.basic_set.snp.recode.rm_cluster3-10.vcf.
 Rscript het_box_plot.R $data_dir/clonal_family/family_info.pop_full_name.txt  $het_dir/output_het.MAF0.05.het
 
 cp $het_dir/MAF0_05.het_R.pdf ./output 
+cp $het_dir/het_df.MAF_0_05.tsv ./output 
 
 #################################################02.caculate the genome-wide recombination rate
 
 
 
+
+#################################################summarize and visualization
+#ml lang/R/4.2.0-foss-2021b #@mogon 
+Rscript 4pop_2SV.piechart.R
+Rscript 5_parameters.barplot.R
 
