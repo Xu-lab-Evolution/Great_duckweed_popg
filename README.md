@@ -1,5 +1,6 @@
 <h1> Population Genomics of the Great Duckweed </h1>
-The repository archives scripts involved in the great duckweed (<strong><em>Spirodela polyrhiza</em></strong>) population genomics project. The paper now can be found here: [link](https://www.nature.com/articles/s42003-024-06266-7)
+The repository archives scripts involved in the great duckweed (<strong><em>Spirodela polyrhiza</em></strong>) population genomics project. 
+The paper now can be found here: [link](https://www.nature.com/articles/s42003-024-06266-7)
 
 <h2> Prerequisites </h2>
 The scripts were written mainly using bash, Perl, Python and R, and calculations were done in an x86_64 GNU/Linux cluster. Please modify the running environment accordingly.
