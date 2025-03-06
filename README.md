@@ -1,6 +1,11 @@
 <h1> Population Genomics of the Great Duckweed </h1>
+
+> ⚠ **Important Notice**: The raw WGS sequencing data for 131 <em>Spirodela</em> samples may not be easily found for download on NCBI. Please use the following Run Selector link for access: [NCBI Run Selector](https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA701543)
+
 The repository archives scripts involved in the great duckweed (<strong><em>Spirodela polyrhiza</em></strong>) population genomics project. 
 The paper now can be found here: [link](https://www.nature.com/articles/s42003-024-06266-7)
+
+
 
 <h2> Prerequisites </h2>
 The scripts were written mainly using bash, Perl, Python and R, and calculations were done in an x86_64 GNU/Linux cluster. Please modify the running environment accordingly.
